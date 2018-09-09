@@ -15,14 +15,13 @@ sbt new jmjava/freestyle-rpc-runtime-template.g8
 
 ...
 
-name [Project Name]: freestyle-rpc
-projectDescription [Project Description]: RPC with Freestyle
-project [project-name]: freestyle-rpc
-package [freestyle]:
-Skipping existing file: ./freestyle-rpc/.gitignore
-Skipping existing file: ./freestyle-rpc/.scalafmt.conf
+name [FreeStyle Runtime Project]: 
+projectDescription [Project Description]: 
+project [freestyl-runtime-project]: 
+package [freestyle]: 
 
-Template applied in ./freestyle-rpc
+Template applied in ./freestyle-runtime-project
+
 ```
 
 
