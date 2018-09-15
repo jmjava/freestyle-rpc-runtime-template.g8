@@ -1,12 +1,12 @@
 ## Note: this is based on https://github.com/frees-io/freestyle-template.g8
-This is a Giter8 template for Freestyle RPC Runtime projects.
+This is a Giter8 template for Freestyle RPC Server projects.
 
-## Creating New Freestyle RPC Runtime Project
+## Creating New Freestyle RPC Server Project
 
 1. Create a new project from Freestyle g8 template:
 
 ```scala
-sbt new jmjava/freestyle-rpc-runtime-template.g8
+sbt new jmjava/freestyle-rpc-server-template.g8
 ```
 
 ## Debugging this template
@@ -30,7 +30,12 @@ sbt new file:///the/path/to/freestyle-rpc-runtime-template.g8
 ##### Now compile and package the project
 
 ```
+<<<<<<< HEAD
 /git/freestyle-rpc-runtime-template.g8/freestyleruntime/ sbt compile package
+=======
+sbt new file:///the/path/to/freestyle-rpc-server-template.g8
+```
+>>>>>>> parent of aacf799... changes to build and readme
 
 ```
 
