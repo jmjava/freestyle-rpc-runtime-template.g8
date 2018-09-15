@@ -9,22 +9,6 @@ This is a Giter8 template for Freestyle RPC Runtime projects.
 sbt new jmjava/freestyle-rpc-runtime-template.g8
 ```
 
-2. Fill the required information (you can see an example below):
-
-```bash
-
-...
-
-name [FreeStyle Runtime Project]: 
-projectDescription [Project Description]: 
-project [freestyl-runtime-project]: 
-package [freestyle]: 
-
-Template applied in ./freestyle-runtime-project
-
-```
-
-
 ## Debugging this template
 
 In the case you need to change this plugin, the easiest way to test it locally is:
@@ -34,6 +18,21 @@ sbt new file:///the/path/to/freestyle-rpc-runtime-template.g8
 ```
 
 
+##### For example from the checkout directory - use the template to generate a new project
+
+```
+/git/freestyle-rpc-runtime-template.g8$ sbt new file://`pwd`﻿
+
+--follow prompts
+
+```
+
+##### Now compile and package the project
+
+```
+/git/freestyle-rpc-runtime-template.g8/freestyleruntime/ sbt compile package
+
+```
 
 Template license
 ----------------
