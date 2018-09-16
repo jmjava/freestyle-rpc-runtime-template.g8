@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package runtime
+package examples.todolist.runtime
 
 import monix.execution.Scheduler
 

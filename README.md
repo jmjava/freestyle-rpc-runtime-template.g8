@@ -30,7 +30,7 @@ sbt new file:///the/path/to/freestyle-rpc-runtime-template.g8
 ##### Now compile and package the project
 
 ```
-/git/freestyle-rpc-runtime-template.g8/freestyleruntime/ sbt publishLocal
+/git/freestyle-rpc-runtime-template.g8/freestyleruntime/ sbt publishLocalgit
 
 ```
 
