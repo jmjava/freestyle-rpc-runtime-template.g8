@@ -28,4 +28,4 @@ lazy val root = project
 
 artifactName := { (sv: ScalaVersion, module: ModuleID, artifact: Artifact) =>
   artifact.name + "-" + module.revision + "." + artifact.extension
-}git
+}
